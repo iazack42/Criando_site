@@ -1,33 +1,119 @@
-header{
-    background-color: black;
+.container{    
+ display: flex;
+ flex-direction: row;
+ justify-content: space-between;
+ align-items: center;
+ background-color: orangered;
+ border-radius: 20px;
+ 
+ 
 }
-.logo {
+.logo{
     width: 100px;
     height: 100px;
-    border-radius: 50%;
-    margin-left: 30px;
-    bor
-}
-a{
-    color: white;
-    text-decoration: none;
-    font-size: 20px;
-    text-transform: uppercase;
-}
-nav{
-    float: right;
 }
 li{
-    display: inline-block;
-    margin: 30px 30px;
+    list-style: none;
+    padding: 20px;
 }
-button{
-    background-color: orangered;
-    text-transform: uppercase;
-    color: white;
+
+
+.menu{
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    text-transform: capitalize;
+}
+.container button{
+    background-color:orangered;
     border: none;
-    border-radius: 20px;
+    color: #654fa5;
     padding: 10px 30px;
-    font-style: inherit;
+    border-radius: 25px;
+    border: 1px solid orange;
+    font-size: 20px;
+}
+a{
+    text-decoration: none;
+    color: black;
+
+}
+
+
+button:hover{
+    background-color: orange;
+    color:white;
+}
+    
+
+.fundo{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    display: flex;
+}
+.info-unitel{
+    display: flex;
+    flex-direction: column;    
+    }
+.Cadastrar{
+    background-color:#654fa5;
+    padding: 10px 30px;
+    color: white;
+    border-radius: 30px;
+    margin-bottom: 15px;
+}
+.saber1{
+    background-color:orange;
+    color: purple;
+    padding: 10px 30px;
+    border-radius: 30px;
+    border: 1px solid #654fa5 ;
+}
+
+.pub{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    text-transform: uppercase;
+    color: orange;
+    
+    
     
 }
+.img1{
+    width: 700px;
+    height: 530px;
+    
+}
+.saber2{
+    background-color: #654fa5;
+    color: orange;
+    padding: 10px 30px;
+    border-radius: 30px;
+    border: 1px solid #654fa5 ; 
+}
+.t{
+    display: flex;
+    flex-direction: column;   
+    justify-content: flex-start;
+    
+}
+.rodape{
+display: flex;
+background-color: #654fa5;
+color: orange;
+text-align: center;
+flex-direction: column;
+
+
+}
+.rodape a{
+    color: orange;
+}
+
+
+    
+    
+
+
